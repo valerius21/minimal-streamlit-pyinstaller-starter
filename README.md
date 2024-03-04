@@ -15,8 +15,8 @@ PyInstaller.
 1. **Clone the Repository**
 
 ```bash
-$ git clone https://github.com/valerius21/minimal-streamlit-pyinstaller-starter.git
-$ cd minimal-streamlit-pyinstaller-starter
+git clone https://github.com/valerius21/minimal-streamlit-pyinstaller-starter.git
+cd minimal-streamlit-pyinstaller-starter
 ```
 
 2. **Create a Virtual Environment**
@@ -55,10 +55,10 @@ streamlit run streamlit_app.py
 ### Building Your Standalone Application
 
 ```bash
-pyinstaller streamlit_app.spec
+./2_build.sh
 ```
 
-After building, your standalone application can be found in the `dist` directory.
+After building, your standalone application can be found in the `dist` directory. You can move it anywhere.
 
 ## Contributing
 
