@@ -1,3 +1,2 @@
 streamlit~=1.31.1
-pandas~=2.2.1
 pyinstaller~=6.4.0
