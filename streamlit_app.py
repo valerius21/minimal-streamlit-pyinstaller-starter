@@ -1,5 +1,3 @@
-import os
-import time
 import sys
 
 import streamlit as st
@@ -22,6 +20,7 @@ if __name__ == '__main__':
             "streamlit",
             "run",
             sys.argv[0],
+            # add your own Streamlit command-line options here
             "--global.developmentMode=false",
         ]
         sys.exit(stcli.main())
