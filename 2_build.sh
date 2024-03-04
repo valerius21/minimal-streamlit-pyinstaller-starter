@@ -1,2 +1,2 @@
 #!/bin/sh
-pyinstaller run.spec --clean --noconfirm
+pyinstaller streamlit_app.spec --clean --noconfirm
